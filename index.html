@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/bf122f7414.js" crossorigin="anonymous"></script>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+DK+Uloopet:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id=container>
+        <div id="text">
+            <h1>TIC TAC TOE</h1>
+            <p>-Three in a row-</p>
+            <div id="descriptionGame">
+                <br><p>Welcome<br>Press <i class="fa-solid fa-play"></i> to start the game.<br>
+                Press <i class="fa-solid fa-circle-info"></i> button to get information about rules. 
+                Enoy the game :)
+                </p>
+            </div>
+            <div id="score" class="hide">
+                <div id="p1">
+                    Player 1 score: 0 
+                </div>
+                <div id="p2">
+                    Player 2 score: 0
+                </div>
+            </div>
+            <div id='winnerText'>
+                
+            </div>
+            <div id="infoText" class="hide">
+                <p>Game is for 2 players. Both of you to win need put your mark in the line (horisontal/vertical/diagonally).<br>The Player who will reach the goal got a point.- Rafal Lyszczak (author)</p>
+            </div>
+            <div id="buttons">
+                <button id="play"><i class="fa-solid fa-play"></i></button>
+                <button id="infoButton"><i class="fa-solid fa-circle-info"></i></button>
+                <button id="reset"><i class="fa-solid fa-rotate-left"></i></button>
+            </div>
+        </div>
+        <div id="game">
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="c1" class="cell"></td>
+                        <td id="c2" class="cell"></td>
+                        <td id="c3" class="cell"></td>
+                    </tr>
+                    <tr>
+                        <td id="c4" class="cell"></td>
+                        <td id="c5" class="cell"></td>
+                        <td id="c6" class="cell"></td>
+                    </tr>
+                    <tr>
+                        <td id="c7" class="cell"></td>
+                        <td id="c8" class="cell"></td>
+                        <td id="c9" class="cell"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

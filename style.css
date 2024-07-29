@@ -1,0 +1,109 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #538bcc;
+    
+}
+#container{
+ width: 1000px;
+ height: 500px;
+ margin: auto;
+ margin-top: 25vh;
+ display: flex;
+}
+#text{
+    font-size: 27px;
+    font-family: "Shadows Into Light", sans-serif;
+    color:rgb(33, 33, 33) ;
+    font-weight: bold;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+h1,p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+table{
+    border-collapse: collapse; 
+    width: 500px;
+    height: 500px;
+    
+}
+td{
+    text-align: center;
+    font-size: 90px;
+    
+}
+#buttons{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    gap:20px
+}
+#buttons button{
+
+    font-size: 50px;
+    color:#FFC0CB ;
+    background-color: transparent;
+    border: none;
+}
+.cell{
+    width:150px;
+    height: 150px;
+}
+#c1 , #c2 , #c4, #c5{
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#c3, #c6{
+    border-bottom: 3px solid black;
+}
+#c9,#c8{
+    border-left:  3px solid black;
+}
+#score{
+    gap: 10px;
+    margin-top: 20px;
+
+}
+#infoText{
+
+    text-align: left;
+}
+td:hover{
+    background-color: #3b7bc5;
+    
+
+}
+#buttons button:hover{
+    color:#f86e85;
+}
+.hide{
+    display: none;
+}
+.nextStyle{
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+    padding: 10px 15px;
+    background-color: #FFC0CB;
+    border-radius: 10px;
+    color:black;
+    margin: auto;
+    margin-top: 20px;
+    font-family: "Shadows Into Light", sans-serif;
+    font-weight: bolder;
+
+    
+}
+.nextStyle:hover{
+    background-color:#f86e85;
+}
